@@ -296,6 +296,17 @@ article {
 .info:hover > a {
   display: inline;
 }
+/* Portfolio */
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background: #353b48;
+  color: white;
+  padding: 2%;
+}
+/* Portfolio */
 @keyframes bounce {
     from,
     20%,
