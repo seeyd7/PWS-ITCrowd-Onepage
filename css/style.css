@@ -115,7 +115,7 @@ main {
   background: url(../images/bg.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 90vh;
+  height: 100vh;
 }
 main h1 {
   color: white;
