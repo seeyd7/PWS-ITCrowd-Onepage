@@ -447,7 +447,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
   background: black;
   width: 100%;
   background: url(../images/footer.jpg) no-repeat center;
