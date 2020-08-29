@@ -107,7 +107,7 @@ nav {
 }
 /* Menu */
 /* Home */
-main {
+.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,7 +117,7 @@ main {
   background-attachment: fixed;
   height: 100vh;
 }
-main h1 {
+.home h1 {
   color: white;
   font-size: 60px;
   margin: 0;
@@ -139,7 +139,7 @@ main h1 {
   justify-content: center;
   margin: 2%;
 }
-main .buttons a{
+.home .buttons a{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -153,7 +153,7 @@ main .buttons a{
   border-radius: 6px;
   transition: .2s linear;
 }
-main .buttons a:hover
+.home .buttons a:hover
 {
   background-color: #3498db;;
   color: #fff;
@@ -466,7 +466,7 @@ footer p {
 /* Footer */
 /* Media */
 @media screen and (max-width: 980px){
-  main h1 {
+  .home h1 {
     font-size: 50px;
   }
   .menu-toggler{
