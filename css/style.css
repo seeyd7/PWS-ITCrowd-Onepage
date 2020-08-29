@@ -306,6 +306,9 @@ article {
   display: none;
 }
 /* Portfolio */
+.container-fluid {
+  margin-bottom: 6%;
+}
 .portfolio {
   display: flex;
   justify-content: space-around;
@@ -468,6 +471,9 @@ footer p {
   }
   .menu-toggler{
     display: block;
+  }
+  nav {
+    position: fixed;
   }
   .navbar-menu{
     position: fixed;
