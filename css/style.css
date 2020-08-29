@@ -457,6 +457,9 @@ footer{
 footer img {
   width: 100%;
 }
+footer p {
+  margin: 0;
+}
 /* Footer */
 /* Media */
 @media screen and (max-width: 980px){
